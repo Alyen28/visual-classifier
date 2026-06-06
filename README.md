@@ -37,7 +37,9 @@ Interactive application that demonstrates how a neural network can interpret, pr
 
 The repository includes the original training pipeline used to generate the neural network models.
 
-To retrain a model:
+The `fashion-mnist_train.csv` file is not included in the repository because of its size. It is only required if you want to recreate the models from the training data.
+
+To retrain a model, after installing and adding the training file, run:
 
 ```bash
 python train_model.py
