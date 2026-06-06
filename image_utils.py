@@ -9,7 +9,7 @@ def mostrar_imagem(pixel_values):
     """
     image = np.array(pixel_values).reshape(28, 28)
 
-    fig, ax = plt.subplots(figsize=(3.3, 3.3))
+    fig, ax = plt.subplots(figsize=(3.4, 3.4))
     ax.imshow(image, cmap="gray")
     ax.axis("off")
 

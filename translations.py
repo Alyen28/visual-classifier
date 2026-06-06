@@ -24,7 +24,7 @@ TRANSLATIONS = {
         "confusion_matrix_title": "Matriz de Confusão",
         "predicted_class": "Classe prevista",
         "true_class": "Classe real",
-        "matrix_info": "A matriz de confusão mostra como o modelo distribui previsões. A diagonal principal representa os acertos. Os valores fora da diagonal indicam confusões entre classes diferentes.",
+        "matrix_info": "A diagonal principal representa os acertos. Os valores fora da diagonal indicam confusões entre classes diferentes.",
 
         "test_dataset": "Teste com imagens do dataset",
         "test_description": "Use os filtros abaixo para escolher quais imagens deseja analisar.",
@@ -112,7 +112,7 @@ TRANSLATIONS = {
         "confusion_matrix_title": "Confusion Matrix",
         "predicted_class": "Predicted class",
         "true_class": "True class",
-        "matrix_info": "The confusion matrix shows how the model distributes predictions. The main diagonal represents correct predictions, while off-diagonal values indicate confusion between classes.",
+        "matrix_info": "The main diagonal represents correct predictions, while off-diagonal values indicate confusion between classes.",
 
         "test_dataset": "Test with dataset images",
         "test_description": "Use the filters below to choose which images you want to analyze.",

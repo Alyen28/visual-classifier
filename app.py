@@ -113,7 +113,7 @@ with tab1:
         st.session_state.language
     )
 
-    col_conf_graph, _, col_conf_table = st.columns([1, 0.1, 1.25])
+    col_conf_graph, _, col_conf_table = st.columns([1, 0.01, 1])
 
     with col_conf_graph:
         st.pyplot(confusion_fig, width="stretch")
@@ -127,7 +127,7 @@ with tab2:
     st.subheader(t("test_dataset"))
     st.write(t("test_description"))
 
-    col_filter1, col_filter2, col_button = st.columns([1, 1, 0.35])
+    col_filter1, col_filter2, col_button = st.columns([1, 1, 0.8])
 
     with col_filter1:
         selected_class_id = st.selectbox(

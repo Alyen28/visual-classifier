@@ -38,7 +38,7 @@ def exibir_previsao_dataset(sample, model, language):
 
     prediction, confidence, probability_df = calcular_previsao(model, pixels, language)
 
-    col_img, _, col_result = st.columns([1, 0.1, 1.25])
+    col_img, _, col_result = st.columns([1.1, 0.01, 1])
 
     with col_img:
         st.pyplot(mostrar_imagem(pixels), width="content")
@@ -74,19 +74,19 @@ def exibir_previsao_upload(original_image, processed_image, pixels, model, langu
         value=False
     )
 
-    col_img, _, col_result = st.columns([1, 0.1, 1.25])
+    col_img, _, col_result = st.columns([1.1, 0.01, 1])
 
     with col_img:
         if mostrar_processada:
             imagem_processada_exibicao = preparar_imagem_para_exibicao(
                 processed_image,
-                tamanho=550,
+                tamanho=560,
                 espessura_borda=20
             )
 
             st.image(
                 imagem_processada_exibicao,
-                width=550
+                width=560
             )
 
         else:
@@ -98,7 +98,7 @@ def exibir_previsao_upload(original_image, processed_image, pixels, model, langu
 
             st.image(
                 imagem_original_com_borda,
-                width=550
+                width=560
             )
 
     with col_result:
@@ -118,7 +118,7 @@ def exibir_previsao_upload(original_image, processed_image, pixels, model, langu
             y=probability_column
         )
 
-        checklist_imagem(original_image, processed_image, language)
+    checklist_imagem(original_image, processed_image, language)
 
 
 def checklist_imagem(original_image, processed_image, language):
