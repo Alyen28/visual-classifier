@@ -1,4 +1,4 @@
-# 🧠 Visual Classifier with Neural Networks
+# Visual Classifier with Neural Networks
 
 Interactive application that demonstrates how a neural network can interpret, process, and classify images from numerical data.
 
@@ -35,7 +35,7 @@ Interactive application that demonstrates how a neural network can interpret, pr
 
 ## 🔁 Training New Models
 
-The repository includes the original training pipeline used to generate the neural network models.
+This repository includes the original training pipeline used to generate the neural network models.
 
 The `fashion-mnist_train.csv` file is not included in the repository because of its size. It is only required if you want to recreate the models from the training data.
 
