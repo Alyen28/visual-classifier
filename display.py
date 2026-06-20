@@ -138,25 +138,25 @@ def checklist_imagem(original_image, processed_image, language):
 
         with col1:
             item = diagnostico["proporcao"]
-            st.markdown(f"{icones[item['nivel']]} **{get_text(language, 'proportion')}**")
+            st.markdown(f"**{get_text(language, 'proportion')}** {icones[item['nivel']]}")
             st.write(item["status"])
             st.caption(item["detalhe"])
 
         with col2:
             item = diagnostico["contraste"]
-            st.markdown(f"{icones[item['nivel']]} **{get_text(language, 'contrast')}**")
+            st.markdown(f"**{get_text(language, 'contrast')}** {icones[item['nivel']]}")
             st.write(item["status"])
             st.caption(item["detalhe"])
 
         with col3:
             item = diagnostico["area_objeto"]
-            st.markdown(f"{icones[item['nivel']]} **{get_text(language, 'object_area')}**")
+            st.markdown(f"**{get_text(language, 'object_area')}** {icones[item['nivel']]}")
             st.write(item["status"])
             st.caption(item["detalhe"])
 
         with col4:
             item = diagnostico["centralizacao"]
-            st.markdown(f"{icones[item['nivel']]} **{get_text(language, 'centralization')}**")
+            st.markdown(f"**{get_text(language, 'centralization')}** {icones[item['nivel']]}")
             st.write(item["status"])
             st.caption(item["detalhe"])
 
