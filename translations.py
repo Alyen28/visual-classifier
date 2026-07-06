@@ -1,6 +1,6 @@
 TRANSLATIONS = {
     "pt": {
-        "app_title": "Classificador Visual com Rede Neural",
+        "app_title": "Classificador Neural",
         "app_description": "Aplicação interativa que demonstra como uma rede neural pode interpretar, processar e classificar imagens a partir de dados numéricos.",
 
         "sidebar_title": "Configurações",
@@ -88,7 +88,7 @@ TRANSLATIONS = {
     },
 
     "en": {
-        "app_title": "Visual Classifier with Neural Network",
+        "app_title": "Neural Classifier",
         "app_description": "Interactive application that demonstrates how a neural network can interpret, process, and classify images from numerical data.",
 
         "sidebar_title": "Settings",
