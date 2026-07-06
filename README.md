@@ -4,7 +4,7 @@ Interactive application that demonstrates how a neural network can interpret, pr
 
 ## 🚀 Live Demo
 
-🔗 https://visual-classifier.streamlit.app
+[Live Demo - Visual Classifier with Neural Networks](https://visual-classifier.streamlit.app)
 
 ## 📌 Features
 
