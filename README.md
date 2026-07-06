@@ -1,10 +1,10 @@
-# Visual Classifier with Neural Networks
+# Neural Classifier
 
 Interactive application that demonstrates how a neural network can interpret, process, and classify images from numerical data.
 
 ## 🚀 Live Demo
 
-[Live Demo - Visual Classifier with Neural Networks](https://visual-classifier.streamlit.app)
+[Live Demo - Neural Classifier](https://neural-classifier.streamlit.app)
 
 ## 📌 Features
 
